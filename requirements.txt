@@ -1,0 +1,27 @@
+# airsim is bundled locally in airsim/ — no pip install needed
+# Runtime deps for the bundled client:
+msgpack-rpc-python>=0.4.1
+numpy>=1.24.0
+
+# Agent stack
+langgraph>=0.1.0
+langchain>=0.2.0
+langchain-postgres>=0.0.1
+langsmith>=0.1.0
+
+# LLM — free via Groq (llama-3.3-70b-versatile)
+langchain-groq>=0.1.0
+
+# Embeddings — free, runs locally (all-MiniLM-L6-v2, 384-dim)
+langchain-huggingface>=0.0.1
+sentence-transformers>=2.2.0
+
+# Database
+psycopg2-binary>=2.9.0
+pgvector>=0.2.0
+
+# Utilities
+python-dotenv>=1.0.0
+fastapi>=0.110.0
+uvicorn>=0.29.0
+pandas>=2.0.0

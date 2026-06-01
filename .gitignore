@@ -1,0 +1,15 @@
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.log
+*.db
+node_modules/
+.langchain/
+airsim_*.log
+dist/
+build/
+*.egg-info/
+.pytest_cache/
