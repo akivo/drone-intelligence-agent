@@ -13,7 +13,7 @@ A multi-agent AI co-pilot for Microsoft AirSim drones. Reads live telemetry ever
 
 ## Demo
 
-> **[Watch demo video](#)** — AirSim drone on the left, live agent terminal on the right
+> **[Watch demo video](https://youtu.be/BIIJbWH9u7Q)** — AirSim drone on the left, live agent terminal on the right
 
 *(Replace `#` with your unlisted YouTube link after recording)*
 
