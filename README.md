@@ -15,8 +15,6 @@ A multi-agent AI co-pilot for Microsoft AirSim drones. Reads live telemetry ever
 
 > **[Watch demo video](https://youtu.be/BIIJbWH9u7Q)** — AirSim drone on the left, live agent terminal on the right
 
-*(Replace `#` with your unlisted YouTube link after recording)*
-
 ---
 
 ## Architecture
@@ -213,5 +211,3 @@ Every agent node is decorated with `@traceable`. Open your LangSmith dashboard t
 - HITL gate input / operator response
 - RAG retrieval results + LLM answer
 - Token usage and latency per run
-
-*(Add LangSmith screenshot here)*
